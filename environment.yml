@@ -21,7 +21,7 @@ dependencies:
   - tqdm=4.65.0
   - pip:
     - accelerate==0.33.0
-    - git+https://github.com/JCallahan25/cellxgene-census-unpin_np
+    - cellxgene-census @ git+https://github.com/JCallahan25/cellxgene-census-unpin_np.git
     - datasets<2.20.0
     - dgl==1.1.3
     - evaluate==0.4.2
